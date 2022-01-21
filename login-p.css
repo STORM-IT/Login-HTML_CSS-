@@ -1,0 +1,91 @@
+body
+{
+    text-align: center;
+    background: rgb(140,207,215);
+background: linear-gradient(54deg, rgba(140,207,215,1) 0%, rgba(59,169,222,0.9836309523809523) 23%);
+font-family: sans-serif;
+}
+div
+{
+display: inline-block;
+  top: 30%;
+   
+    position: relative;
+    background-color: white;
+    
+    width: 290px;
+    height: 360px;
+    border-radius: 20px;;
+    
+    
+}
+span
+{
+    color:royalblue
+}
+header
+{
+display: block;
+margin-top: 60px;
+text-align: center;
+
+}
+main
+{
+    text-align: center;
+}
+input[type=text],[type=password]
+{
+width: 230px;
+margin-bottom: 20px;
+border: none;
+border-bottom: 1px rgb(194, 202, 231) solid;
+}
+input:nth-child(1)
+{
+    margin-top: 30px;
+}
+input[type=button]
+{
+    cursor: pointer;
+    width: 230px;
+    border: none;
+     background: rgb(140,207,215);
+    background: linear-gradient(54deg, rgba(140,207,215,1) 0%, rgba(59,169,222,0.9836309523809523) 23%);
+color: white;
+height: 25px;
+margin-bottom: 15px;
+}
+footer
+{
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color:gray;
+    font-size: small;
+    
+}
+a:last-child
+{
+    margin-top: -8px;
+    color: royalblue;
+}
+
+input[type=text],[type=password]
+{
+    
+    outline: none;
+    
+}
+input[type=text]:focus,[type=password]:focus
+{
+    
+    border-bottom: 2px solid gray;
+    
+}
+
+
+    
